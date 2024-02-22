@@ -15,7 +15,7 @@ using namespace std;
 int main() {
     //Specify file path
     const wchar_t* filePath = L"C:\\Users\\Noah-\\OneDrive\\Franciscan University of Steubenville\\4 Spring 2024\\Data Structures\\RPG Quest Stuff\\Battle.wav";
-    // Play the sound
+    //Play the sound
     PlaySoundW(filePath, NULL, SND_FILENAME | SND_SYNC);
     return 0;
 }
